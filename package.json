@@ -1,0 +1,34 @@
+{
+  "name": "alfred-mirror-darken",
+  "version": "1.0.0",
+  "description": "Toggle mirror of the external display",
+  "main": "mirror.js",
+  "scripts": {
+    "start": "osascript -l JavaScript mirror.js",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOriens/alfred-mirror-and-darken.git"
+  },
+  "keywords": [
+    "alfred",
+    "plugin",
+    "jxa",
+    "automation",
+    "display",
+    "darken",
+    "turn",
+    "off"
+  ],
+  "author": "Junjie Ding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IOriens/alfred-mirror-and-darken/issues"
+  },
+  "homepage": "https://github.com/IOriens/alfred-mirror-and-darken#readme"
+}
